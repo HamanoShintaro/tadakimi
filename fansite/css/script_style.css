@@ -2,9 +2,7 @@
 	display: none;
 }
 .txt, .bg{
-	width: 50%;
 	float: right;
-	display: table;
 	background: #f6f6f6;
 }
 .txt, .bg{
@@ -16,7 +14,6 @@
 }
 .bg:after {
 	position: absolute;
-	display: block;
 	content: "";
 	top: 0;
 	left: 0;
