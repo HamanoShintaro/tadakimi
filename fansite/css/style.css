@@ -288,7 +288,12 @@ section h2{
 	background: #f6f6f6;
 	}
 
-	#sec02_02 .txt, #sec02_02 .bg{
+	#sec02_02 .txt, #sec02_02 .bg,
+	#sec02_04 .txt, #sec02_04 .bg,
+	#sec02_06 .txt, #sec02_06 .bg,
+	#sec02_08 .txt, #sec02_08 .bg,
+	#sec02_10 .txt, #sec02_10 .bg
+	{
 		float: right;
 	}
 
