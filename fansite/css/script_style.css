@@ -1,0 +1,30 @@
+#sec01, #sec03, #sec04, #sec05 {
+	display: none;
+}
+.txt, .bg{
+	width: 50%;
+	float: right;
+	display: table;
+	background: #f6f6f6;
+}
+.txt, .bg{
+	padding-top: 5px;
+}
+.bg {
+	display: inline-block;
+	position: relative;
+}
+.bg:after {
+	position: absolute;
+	display: block;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	box-shadow:
+	inset 0 0 5px #f6f6f6 /* 背景色と同じ色 */,
+	inset 0 0 5px #f6f6f6,
+	inset 0 0 5px #f6f6f6,
+	inset 0 0 5px #f6f6f6;
+}
