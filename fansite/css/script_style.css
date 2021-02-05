@@ -25,3 +25,23 @@
 	inset 0 0 5px #f6f6f6,
 	inset 0 0 5px #f6f6f6;
 }
+#script_body{
+	margin: 10px;
+}
+#senario_header h1{
+	font-size: 22px;
+	font-weight:normal;
+	text-align: left;
+}
+#senario_character h2{
+	text-align: left;
+}
+#senario_character h3{
+	margin-top: 15px;
+}
+#senario_body p{
+	margin-top: 10px;
+}
+a {
+	color: #000;
+}
