@@ -45,3 +45,41 @@
 a {
 	color: #000;
 }
+.script_eyecatch {
+	text-align: center;
+}
+/* RESPONSIVE 設定
+------------------------------------------------------------*/
+
+/*1200以上*/
+@media only screen and (min-width: 1200px){
+	.script_eyecatch img{
+		width: 70%;
+	}
+}
+
+/*800以上*/
+@media only screen and (min-width: 800px){
+}
+
+/*641以上*/
+@media only screen and (min-width: 641px){
+	.script_eyecatch img{
+		width: 80%;
+	}
+}
+
+/*640以下*/
+@media only screen and (max-width: 640px){
+	.script_eyecatch img{
+		width: 100%;
+	}
+}
+
+/*799以下*/
+@media only screen and (max-width: 799px){
+}
+
+/*1199以下*/
+@media only screen and (max-width: 1199px){
+}
