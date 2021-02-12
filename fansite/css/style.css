@@ -34,6 +34,16 @@ a:hover, .active{
 
 a:active, a:focus,input:active, input:focus{outline:0;}
 
+.effect-fade {
+	opacity : 0;
+	transform : translate(0, 45px);
+	transition : all 300ms;
+	
+}
+.effect-fade.effect-scroll {
+	opacity : 1;
+	transform : translate(0, 0);
+}
 
 /* ヘッダー
 ------------------------------------------------------------*/
