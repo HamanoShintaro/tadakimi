@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
 
 /* reset */
@@ -38,7 +38,6 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 	opacity : 0;
 	transform : translate(0, 45px);
 	transition : all 300ms;
-	
 }
 .effect-fade.effect-scroll {
 	opacity : 1;
