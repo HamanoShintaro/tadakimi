@@ -133,7 +133,7 @@ section h2{
 .vision{
 	width: 60%;
 	margin: 0 auto;
-	padding-bottom: 80px;
+	padding-bottom: 20px;
 }
 
 
@@ -229,6 +229,18 @@ section h2{
 	border: 0;
 }
 
+/* SEC01 VISION
+------------------------------------------------------------*/
+
+#sec06{
+	width: 50%;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.timeline-Footer{
+	display: none;
+}
 
 /* RESPONSIVE 設定
 ------------------------------------------------------------*/
@@ -353,6 +365,14 @@ section h2{
 	#map iframe{
 	  width: 96% !important;
 		left: 2%;
+	}
+
+	#sec06{
+		width: 90%;
+	}
+
+	.vision{
+		width: 90%;
 	}
 }
 
