@@ -355,7 +355,7 @@ section h2{
 		padding: 0 3%;
 		vertical-align: top;
 	}
-	#img_gallery{
+	#img_gallery, #video_gallery{
 		width: 80%;
 		margin-left : auto ; 
 		margin-right : auto
@@ -375,7 +375,7 @@ section h2{
 	.vision{
 		width: 90%;
 	}
-	#img_gallery{
+	#img_gallery, #video_gallery{
 		width: 95%;
 		margin-left : auto ; 
 		margin-right : auto
